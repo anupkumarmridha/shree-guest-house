@@ -4,15 +4,6 @@ export interface Room {
     images: string[];
     isAC: boolean;
     sharingType: string;
-    sqFt: number;
-    prices: {
-      daily: number;
-      monthly: number;
-    };
     facilities: string[];
-    charges: {
-      acUsagePerUnit?: number;
-      fixedMonthlyCharges: Record<string, number>;
-    };
   }
   

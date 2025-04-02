@@ -8,21 +8,7 @@
       ],
       "isAC": true,
       "sharingType": "single",
-      "sqFt": 300,
-      "prices": {
-        "daily": 800,
-        "monthly": 8000
-      },
-      "facilities": ["WiFi", "Attached Bathroom", "Room Service"],
-      "charges": {
-        "acUsagePerUnit": 18,
-        "fixedMonthlyCharges": {
-          "TV": 250,
-          "Washing Machine": 400,
-          "Electric Kettle": 350,
-          "Iron": 200
-        }
-      }
+      "facilities": ["WiFi", "Attached Bathroom", "Room Service"]
     },
     {
       "id": 2,
@@ -33,19 +19,7 @@
       ],
       "isAC": false,
       "sharingType": "single",
-      "sqFt": 300,
-      "prices": {
-        "daily": 700,
-        "monthly": 7500
-      },
-      "facilities": ["Attached Bathroom", "Drinking Water", "WiFi", "Room Service"],
-      "charges": {
-        "fixedMonthlyCharges": {
-          "Washing Machine": 400,
-          "Electric Kettle": 350,
-          "Iron": 200
-        }
-      }
+      "facilities": ["Attached Bathroom", "Drinking Water", "WiFi", "Room Service"]
     },
     {
         "id": 3,
@@ -57,21 +31,7 @@
         ],
         "isAC": true,
         "sharingType": "two",
-        "sqFt": 500,
-        "prices": {
-          "daily": 1300,
-          "monthly": 13500
-        },
-        "facilities": ["WiFi", "Attached Bathroom", "Room Service"],
-        "charges": {
-          "acUsagePerUnit": 18,
-          "fixedMonthlyCharges": {
-            "TV": 250,
-            "Washing Machine": 400,
-            "Electric Kettle": 350,
-            "Iron": 200
-          }
-        }
+        "facilities": ["WiFi", "Attached Bathroom", "Room Service"]
       },
       {
         "id": 4,
@@ -82,19 +42,7 @@
         ],
         "isAC": false,
         "sharingType": "two",
-        "sqFt": 500,
-        "prices": {
-          "daily": 700,
-          "monthly": 7500
-        },
-        "facilities": ["Attached Bathroom", "Drinking Water", "WiFi", "Room Service"],
-        "charges": {
-          "fixedMonthlyCharges": {
-            "Washing Machine": 400,
-            "Electric Kettle": 350,
-            "Iron": 200
-          }
-        }
+        "facilities": ["Attached Bathroom", "Drinking Water", "WiFi", "Room Service"]
       }
   ]
   
