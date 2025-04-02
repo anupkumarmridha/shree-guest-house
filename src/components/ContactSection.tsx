@@ -3,8 +3,7 @@ const ContactSection = () => {
       <div id="contact" className="mt-10 text-center bg-gray-100 p-6">
       <h2 className="text-2xl font-bold">📍 Find Us Here</h2>
       <p className="text-gray-600">
-        No 23, Appavoo Gramani Street, Ellis Rd, Border Thottam, Padupakkam,
-        Triplicane, Chennai, Tamil Nadu 600002
+        Old No 5, New No 9, Barber Agan Street, Ellis Rd, Chennai, Tamil Nadu 600002 (Behind Devi Theatre)
       </p>
       <p className="text-gray-600 mt-4">
         📞 Contact Number:{" "}
