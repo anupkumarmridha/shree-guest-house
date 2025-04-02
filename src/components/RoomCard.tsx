@@ -1,5 +1,4 @@
 import { useState} from "react";
-import RoomModal from "./RoomModal";
 import { Room } from "../types";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
@@ -62,9 +61,6 @@ const RoomCard: React.FC<RoomCardProps> = ({ room }) => {
           </button>
         </div>
       </div>
-
-      {/* Room Details Modal */}
-      {isOpen && <RoomModal room={room} onClose={() => setIsOpen(false)} />}
     </>
   );
 };
