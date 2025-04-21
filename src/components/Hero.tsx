@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
+const baseUrl = import.meta.env.BASE_URL;
 
 const images = [
-  "/double_bed_1.jpeg",
-  "/double_bed_2.jpeg",
-  "/single_room_1.jpeg",
-  "/single_room_2.jpeg",
-  "/inside_hotel.jpeg",
-  "/inside_hotel_2.jpeg",
-  "/main_entrance.jpeg",
-  "/reception.jpeg",
+   baseUrl + "/double_bed_1.jpeg",
+   baseUrl + "/double_bed_2.jpeg",
+   baseUrl + "/single_room_1.jpeg",
+   baseUrl + "/single_room_2.jpeg",
+   baseUrl + "/inside_hotel.jpeg",
+   baseUrl + "/inside_hotel_2.jpeg",
+   baseUrl + "/main_entrance.jpeg",
+   baseUrl + "/reception.jpeg",
 ];
 
 const slideHeadings = [
