@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
-import ContactSection from "./ContactSection";
 
 const images = [
   "/double_bed_1.jpeg",
