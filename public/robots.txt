@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anupkumarmridha.github.io/shree-guest-house/sitemap.xml
