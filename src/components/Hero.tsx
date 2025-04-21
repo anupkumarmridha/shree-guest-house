@@ -1,7 +1,7 @@
-// Hero.tsx
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
+import ContactSection from "./ContactSection";
 
 const images = [
   "/double_bed_1.jpeg",
@@ -70,8 +70,8 @@ const Hero = () => {
 
   return (
     <section className="pt-16 bg-white">
-      {/* Hero Section */}
-      <div className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden shadow-lg">
+      {/* Slideshow */}
+      <div className="relative h-[75vh] md:h-[85vh] w-full overflow-hidden shadow-lg">
         <AnimatePresence>
           <motion.img
             key={images[current]}
@@ -99,9 +99,33 @@ const Hero = () => {
             </p>
           </motion.div>
         </div>
+
+        {/* Contact Overlay */}
+        <div className="absolute bottom-6 right-6 bg-black/60 text-white p-4 rounded-xl backdrop-blur-sm shadow-md max-w-xs w-[90%] sm:w-auto text-sm">
+          <h3 className="text-lg font-semibold mb-2">📞 Reach Us</h3>
+          <p className="mb-1">
+            <span className="font-medium">Phone:</span>{" "}
+            <a href="tel:+919876543210" className="underline hover:text-blue-400">
+              +91 98765 43210
+            </a>
+          </p>
+          <p className="mb-1">
+            <span className="font-medium">Email:</span>{" "}
+            <a href="mailto:info@shreeguesthouse.com" className="underline hover:text-blue-400">
+              info@shreeguesthouse.com
+            </a>
+          </p>
+          <p className="mb-2">
+            <span className="font-medium">Location:</span> Ellis Rd, Chennai
+          </p>
+          <p className="italic text-gray-300">
+            Near Chepauk Stadium & Marina Beach — Affordable & Accessible
+          </p>
+        </div>
+
       </div>
 
-      {/* Gallery Section */}
+      {/* Gallery */}
       <div className="py-12 px-6 md:px-12 bg-gradient-to-br from-gray-50 to-white">
         <h2 className="text-center text-3xl sm:text-4xl font-extrabold text-gray-800 mb-6">
           📸 Gallery Highlights
